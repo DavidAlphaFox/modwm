@@ -1,4 +1,4 @@
-## MODWM - modular dynamic window manager
+## MODWM - modular dynamic window manager - suckless style
 ![dwm_freebsd](dwm.png)
 MODWM is a fork of dwm 6.2 (aaad5f, 2020-07-08). It has a different take on dwm patching. It uses preprocessor directives to decide whether or not to include a patch during build time. Essentially this means that this build is modular and for better or worse, contains both the patched _and_ the original code. The aim being that you can select which patches to include and the build will contain that code and nothing more. Due to the complexity of some of the patches dwm-flexipatch has diverged from mainstream dwm by making some core patches non-optional for maintenance reasons. For the classic dwm-flexipatch build refer to branch [dwm-flexipatch-1.0](https://github.com/bakkeby/dwm-flexipatch/tree/dwm-flexipatch-1.0).
 
